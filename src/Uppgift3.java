@@ -18,7 +18,8 @@ public class Uppgift3 {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JLabel label = null;
         try {
-            label = new JLabel( createImageIcon("https://webshare.mah.se/ak4314/gubbe.jpg") );
+            //change xxxx with your mauid
+            label = new JLabel( createImageIcon("https://webshare.mah.se/xxxx/4x0njwqkpxbc1.png") );
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
