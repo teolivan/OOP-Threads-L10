@@ -28,7 +28,7 @@ public class Uppgift1 {
                 String name = localAddress.getHostName();
                 lblLocalIp.setText("IP= "+ address + "Name= " + name);
             } catch (UnknownHostException e) {
-                lblLocalIp.setText("IP=-, Namn=-");
+                lblLocalIp.setText("Unknown host");
             }
             setLayout(new GridLayout(3,1));
             setPreferredSize(new Dimension(300,100));
